@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --stance1-color: rgb(203, 203, 255);
+  --stance2-color: rgb(248, 200, 200);
+  --stance1-shadow: 0 0 25px rgb(160, 160, 246, 1);
+  --stance2-shadow: 0 0 25px rgb(250, 105, 105);
+  --none-color: white;
+  --none-shadow: 0 0 30px rgb(111, 111, 111);
+}
+
+.stance1-style {
+  color: var(--stance1-color);
+  text-shadow: var(--stance1-shadow);
+}
+
+.stance2-style {
+  color: var(--stance2-color);
+  text-shadow: var(--stance2-shadow);
+}
+
+.no-stance-style {
+  color: var(--none-color);
+  text-shadow: var(--none-shadow);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;  
+  flex-direction: column;
+
+  background: url("../../img/QB_BG2.jpeg") center/cover no-repeat;
+  color: white;
+  margin: 0;
+  backdrop-filter: blur(3px);
+}
+
+#box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  margin: 0px;
+}
+
+.countdown-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+  height: 100%;
+  flex: 1; /* Utilizes flex-grow to manage widths dynamically */
+}
+
+.title {
+  font-size: 3.0em;
+  font-weight: bold;
+  font-family: 'JMH';
+  margin-bottom: 0px;
+}
+
+.timer span {
+  margin: 5px;
+  text-align: center;
+  font-size: 15em;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+}
+
+input {
+  margin-bottom: 30px;
+}
+
+.single-countdown {
+  justify-content: center;
+}
+
+.hidden {
+  display: None;
+}
+
+
+.single-countdown #countdown {
+  width: 100%;
+}
+
+.single-countdown #countdown2 {
+  width: 0%;
+  display: None;
+}
+
+.both-countdowns #countdown,
+.both-countdowns #countdown2 {
+  font-size: 0.9em;
+  width: 50%;
+}
+
+.both-countdowns #countdown {
+  color: var(--stance1-color);
+  text-shadow: var(--stance1-shadow);
+}
+
+.both-countdowns #countdown2 {
+  color: var(--stance2-color);
+  text-shadow: var(--stance2-shadow);
+}
+
+#label1,
+#label2 {
+  font-size: 2.0em;
+  font-weight: bold;
+  font-family: 'JMH';
+}
+
+#main-title {
+  font-size: 5.0em;
+  font-weight: bold;
+  font-family: 'JMH'
+}

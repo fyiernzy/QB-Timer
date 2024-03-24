@@ -1,0 +1,178 @@
+[
+  {
+    "type": "timer1",
+    "duration1": 240,
+    "stance1": "正方",
+    "title1": "正方一辩·立论"
+  },
+  {
+    "type": "timer1",
+    "duration1": 240,
+    "stance1": "反方",
+    "title1": "反方一辩 · 立论"
+  },
+  {
+    "type": "timer1",
+    "duration1": 60,
+    "stance1": "无",
+    "title1": "教练指导环节"
+  },
+  {
+    "type": "timer1",
+    "duration1": 120,
+    "stance1": "无",
+    "title1": "教练指导环节"
+  },
+  {
+    "type": "timer1",
+    "duration1": 150,
+    "stance1": "反方",
+    "title1": "反方二辩 · 质询"
+  },
+  {
+    "type": "timer1",
+    "duration1": 60,
+    "stance1": "无",
+    "title1": "教练指导环节"
+  },
+  {
+    "type": "timer1",
+    "duration1": 120,
+    "stance1": "无",
+    "title1": "教练指导环节"
+  },
+  {
+    "type": "timer1",
+    "duration1": 150,
+    "stance1": "正方",
+    "title1": "正方二辩 · 质询"
+  },
+  {
+    "type": "timer1",
+    "duration1": 60,
+    "stance1": "无",
+    "title1": "教练指导环节"
+  },
+  {
+    "type": "timer1",
+    "duration1": 120,
+    "stance1": "无",
+    "title1": "教练指导环节"
+  },
+  {
+    "type": "timer1",
+    "duration1": 120,
+    "stance1": "反方",
+    "title1": "反方二辩 · 小结"
+  },
+  {
+    "type": "timer1",
+    "duration1": 60,
+    "stance1": "无",
+    "title1": "教练指导环节"
+  },
+  {
+    "type": "timer1",
+    "duration1": 120,
+    "stance1": "无",
+    "title1": "教练指导环节"
+  },
+  {
+    "type": "timer1",
+    "duration1": 120,
+    "stance1": "正方",
+    "title1": "正方二辩 · 小结"
+  },
+  {
+    "type": "timer1",
+    "duration1": 60,
+    "stance1": "无",
+    "title1": "教练指导环节"
+  },
+  {
+    "type": "timer1",
+    "duration1": 120,
+    "stance1": "无",
+    "title1": "教练指导环节"
+  },
+  {
+    "type": "timer2",
+    "mainTitle": "三辩对辩",
+    "duration1": 120,
+    "stance1": "正方",
+    "title1": "正方三辩",
+    "duration2": 120,
+    "stance2": "反方",
+    "title2": "反方三辩"
+  },
+  {
+    "type": "timer1",
+    "duration1": 60,
+    "stance1": "无",
+    "title1": "教练指导环节"
+  },
+  {
+    "type": "timer1",
+    "duration1": 120,
+    "stance1": "无",
+    "title1": "教练指导环节"
+  },
+  {
+    "type": "timer1",
+    "duration1": 150,
+    "stance1": "正方",
+    "title1": "正方三辩 · 小结"
+  },
+  {
+    "type": "timer1",
+    "duration1": 60,
+    "stance1": "无",
+    "title1": "教练指导环节"
+  },
+  {
+    "type": "timer1",
+    "duration1": 120,
+    "stance1": "无",
+    "title1": "教练指导环节"
+  },
+  {
+    "type": "timer1",
+    "duration1": 150,
+    "stance1": "反方",
+    "title1": "反方三辩 · 小结"
+  },
+  {
+    "type": "timer1",
+    "duration1": 60,
+    "stance1": "无",
+    "title1": "教练指导环节"
+  },
+  {
+    "type": "timer1",
+    "duration1": 120,
+    "stance1": "无",
+    "title1": "教练指导环节"
+  },
+  {
+    "type": "timer2",
+    "mainTitle": "自由辩论",
+    "duration1": 240,
+    "stance1": "正方",
+    "title1": "正方",
+    "duration2": 240,
+    "stance2": "反方",
+    "title2": "反方"
+  },
+  {
+    "type": "timer1",
+    "duration1": 240,
+    "stance1": "反方",
+    "title1": "反方四辩 · 总结"
+  },
+  {
+    "type": "timer1",
+    "duration1": 240,
+    "stance1": "正方",
+    "title1": "正方四辩 · 总结"
+  }
+]

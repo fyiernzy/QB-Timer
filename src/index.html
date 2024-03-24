@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/css/styles.css" />
+    <link rel="stylesheet" href="../src/css/config-styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <title>全辩计时器</title>
+  </head>
+  <body>
+    <div id="main-title"></div>
+    <div id="box" class="single-countdown">
+      <div class="countdown-container" id="countdown">
+        <p class="title" id="title1">正方三辩</p>
+        <div class="timer">
+          <span id="minutes1">00</span><span>:</span><span id="seconds1">00</span>
+        </div>
+      </div>
+
+      <div class="countdown-container" id="countdown2">
+        <p class="title" id="title2">反方三辩</p>
+        <div class="timer">
+          <span id="minutes2">00</span><span>:</span><span id="seconds2">00</span>
+        </div>
+      </div>
+    </div>
+
+    <span id="settingsButton" class="material-symbols-outlined settings-button"> settings </span>
+    <div id="settingsModal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">x</span>
+        <h2>当前设定</h2>
+
+        <div class="config-container">
+          <div class="label">
+            <label for="background">背景图片</label>
+          </div>
+          <input type="file" id="background" accept="image/*" />
+        </div>
+
+        <div class="config-container">
+          <div class="label">
+            <label for="data">赛制</label>
+          </div>
+          <input type="file" id="data" accept=".json" />
+        </div>
+
+        <div class="config-container">
+          <div class="label">
+            <label for="timer-one-toggle-key">计时器一</label>
+          </div>
+          <input
+            class="config-input-type"
+            type="text"
+            id="timer-one-toggle-key"
+            value="Q"
+          /><br />
+        </div>
+
+        <div class="config-container">
+          <div class="label">
+            <label for="timer-two-toggle-key">计时器二</label>
+          </div>
+          <input
+            class="config-input-type"
+            type="text"
+            id="timer-two-toggle-key"
+            value="W"
+          /><br />
+        </div>
+
+        <div class="config-container">
+          <div class="label"><label for="next-key">下一页</label></div>
+          <input
+            class="config-input-type"
+            type="text"
+            id="next-key"
+            value="."
+          /><br />
+        </div>
+
+        <div class="config-container">
+          <div class="label"><label for="previous-key">上一页</label></div>
+          <input
+            class="config-input-type"
+            type="text"
+            id="previous-key"
+            value=","
+          /><br />
+        </div>
+
+        <div class="config-container">
+          <div class="label"><label for="shift-key">切换</label></div>
+          <input
+            class="config-input-type"
+            type="text"
+            id="shift-key"
+            value="A"
+          /><br />
+        </div>
+
+        <button class="save-button" onclick="saveSettings()">保存设定</button>
+      </div>
+    </div>
+    <script src="../src/js/script.js" type="module"></script>
+    <script src="../src/js/config-script.js"></script>
+  </body>
+</html>
